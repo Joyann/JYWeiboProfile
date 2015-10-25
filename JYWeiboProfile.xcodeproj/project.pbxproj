@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629FFCD11BD1D47D00298E8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFCD01BD1D47D00298E8A /* main.m */; };
+		629FFCD41BD1D47D00298E8A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFCD31BD1D47D00298E8A /* AppDelegate.m */; };
+		629FFCDA1BD1D47D00298E8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629FFCD81BD1D47D00298E8A /* Main.storyboard */; };
+		629FFCDC1BD1D47D00298E8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 629FFCDB1BD1D47D00298E8A /* Assets.xcassets */; };
+		629FFCDF1BD1D47D00298E8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 629FFCDD1BD1D47D00298E8A /* LaunchScreen.storyboard */; };
+		629FFCEA1BD1D47D00298E8A /* JYWeiboProfileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFCE91BD1D47D00298E8A /* JYWeiboProfileTests.m */; };
+		629FFCF51BD1D47D00298E8A /* JYWeiboProfileUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFCF41BD1D47D00298E8A /* JYWeiboProfileUITests.m */; };
+		629FFD041BD1D4F400298E8A /* JYProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD031BD1D4F400298E8A /* JYProfileViewController.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD211BD1D72000298E8A /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD081BD1D72000298E8A /* MASCompositeConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD221BD1D72000298E8A /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD0B1BD1D72000298E8A /* MASConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD231BD1D72000298E8A /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD0D1BD1D72000298E8A /* MASConstraintMaker.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD241BD1D72000298E8A /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD0F1BD1D72000298E8A /* MASLayoutConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD251BD1D72000298E8A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD131BD1D72000298E8A /* MASViewAttribute.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD261BD1D72000298E8A /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD151BD1D72000298E8A /* MASViewConstraint.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD271BD1D72000298E8A /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD171BD1D72000298E8A /* NSArray+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD281BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD1A1BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD291BD1D72000298E8A /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD1C1BD1D72000298E8A /* View+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD2A1BD1D72000298E8A /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD1F1BD1D72000298E8A /* ViewController+MASAdditions.m */; settings = {ASSET_TAGS = (); }; };
+		629FFD311BD225A100298E8A /* UIImage+ColorImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 629FFD301BD225A100298E8A /* UIImage+ColorImage.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		629FFCE61BD1D47D00298E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629FFCC41BD1D47D00298E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629FFCCB1BD1D47D00298E8A;
+			remoteInfo = JYWeiboProfile;
+		};
+		629FFCF11BD1D47D00298E8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 629FFCC41BD1D47D00298E8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 629FFCCB1BD1D47D00298E8A;
+			remoteInfo = JYWeiboProfile;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		629FFCCC1BD1D47D00298E8A /* JYWeiboProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYWeiboProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		629FFCD01BD1D47D00298E8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		629FFCD21BD1D47D00298E8A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		629FFCD31BD1D47D00298E8A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		629FFCD91BD1D47D00298E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		629FFCDB1BD1D47D00298E8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		629FFCDE1BD1D47D00298E8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		629FFCE01BD1D47D00298E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629FFCE51BD1D47D00298E8A /* JYWeiboProfileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYWeiboProfileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629FFCE91BD1D47D00298E8A /* JYWeiboProfileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYWeiboProfileTests.m; sourceTree = "<group>"; };
+		629FFCEB1BD1D47D00298E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629FFCF01BD1D47D00298E8A /* JYWeiboProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JYWeiboProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		629FFCF41BD1D47D00298E8A /* JYWeiboProfileUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYWeiboProfileUITests.m; sourceTree = "<group>"; };
+		629FFCF61BD1D47D00298E8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		629FFD021BD1D4F400298E8A /* JYProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYProfileViewController.h; sourceTree = "<group>"; };
+		629FFD031BD1D4F400298E8A /* JYProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYProfileViewController.m; sourceTree = "<group>"; };
+		629FFD071BD1D72000298E8A /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		629FFD081BD1D72000298E8A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		629FFD091BD1D72000298E8A /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		629FFD0A1BD1D72000298E8A /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		629FFD0B1BD1D72000298E8A /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		629FFD0C1BD1D72000298E8A /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		629FFD0D1BD1D72000298E8A /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		629FFD0E1BD1D72000298E8A /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		629FFD0F1BD1D72000298E8A /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		629FFD101BD1D72000298E8A /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		629FFD111BD1D72000298E8A /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		629FFD121BD1D72000298E8A /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		629FFD131BD1D72000298E8A /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		629FFD141BD1D72000298E8A /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		629FFD151BD1D72000298E8A /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		629FFD161BD1D72000298E8A /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		629FFD171BD1D72000298E8A /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		629FFD181BD1D72000298E8A /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		629FFD191BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		629FFD1A1BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		629FFD1B1BD1D72000298E8A /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		629FFD1C1BD1D72000298E8A /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		629FFD1D1BD1D72000298E8A /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		629FFD1E1BD1D72000298E8A /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		629FFD1F1BD1D72000298E8A /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		629FFD2F1BD225A100298E8A /* UIImage+ColorImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ColorImage.h"; sourceTree = "<group>"; };
+		629FFD301BD225A100298E8A /* UIImage+ColorImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ColorImage.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		629FFCC91BD1D47D00298E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCE21BD1D47D00298E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCED1BD1D47D00298E8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629FFCC31BD1D47D00298E8A = {
+			isa = PBXGroup;
+			children = (
+				629FFCCE1BD1D47D00298E8A /* JYWeiboProfile */,
+				629FFCE81BD1D47D00298E8A /* JYWeiboProfileTests */,
+				629FFCF31BD1D47D00298E8A /* JYWeiboProfileUITests */,
+				629FFCCD1BD1D47D00298E8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		629FFCCD1BD1D47D00298E8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				629FFCCC1BD1D47D00298E8A /* JYWeiboProfile.app */,
+				629FFCE51BD1D47D00298E8A /* JYWeiboProfileTests.xctest */,
+				629FFCF01BD1D47D00298E8A /* JYWeiboProfileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		629FFCCE1BD1D47D00298E8A /* JYWeiboProfile */ = {
+			isa = PBXGroup;
+			children = (
+				629FFD051BD1D72000298E8A /* Masonry */,
+				629FFCD21BD1D47D00298E8A /* AppDelegate.h */,
+				629FFCD31BD1D47D00298E8A /* AppDelegate.m */,
+				629FFCD81BD1D47D00298E8A /* Main.storyboard */,
+				629FFCDB1BD1D47D00298E8A /* Assets.xcassets */,
+				629FFCDD1BD1D47D00298E8A /* LaunchScreen.storyboard */,
+				629FFCE01BD1D47D00298E8A /* Info.plist */,
+				629FFCCF1BD1D47D00298E8A /* Supporting Files */,
+				629FFD021BD1D4F400298E8A /* JYProfileViewController.h */,
+				629FFD031BD1D4F400298E8A /* JYProfileViewController.m */,
+				629FFD2F1BD225A100298E8A /* UIImage+ColorImage.h */,
+				629FFD301BD225A100298E8A /* UIImage+ColorImage.m */,
+			);
+			path = JYWeiboProfile;
+			sourceTree = "<group>";
+		};
+		629FFCCF1BD1D47D00298E8A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				629FFCD01BD1D47D00298E8A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		629FFCE81BD1D47D00298E8A /* JYWeiboProfileTests */ = {
+			isa = PBXGroup;
+			children = (
+				629FFCE91BD1D47D00298E8A /* JYWeiboProfileTests.m */,
+				629FFCEB1BD1D47D00298E8A /* Info.plist */,
+			);
+			path = JYWeiboProfileTests;
+			sourceTree = "<group>";
+		};
+		629FFCF31BD1D47D00298E8A /* JYWeiboProfileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				629FFCF41BD1D47D00298E8A /* JYWeiboProfileUITests.m */,
+				629FFCF61BD1D47D00298E8A /* Info.plist */,
+			);
+			path = JYWeiboProfileUITests;
+			sourceTree = "<group>";
+		};
+		629FFD051BD1D72000298E8A /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				629FFD071BD1D72000298E8A /* MASCompositeConstraint.h */,
+				629FFD081BD1D72000298E8A /* MASCompositeConstraint.m */,
+				629FFD091BD1D72000298E8A /* MASConstraint+Private.h */,
+				629FFD0A1BD1D72000298E8A /* MASConstraint.h */,
+				629FFD0B1BD1D72000298E8A /* MASConstraint.m */,
+				629FFD0C1BD1D72000298E8A /* MASConstraintMaker.h */,
+				629FFD0D1BD1D72000298E8A /* MASConstraintMaker.m */,
+				629FFD0E1BD1D72000298E8A /* MASLayoutConstraint.h */,
+				629FFD0F1BD1D72000298E8A /* MASLayoutConstraint.m */,
+				629FFD101BD1D72000298E8A /* Masonry.h */,
+				629FFD111BD1D72000298E8A /* MASUtilities.h */,
+				629FFD121BD1D72000298E8A /* MASViewAttribute.h */,
+				629FFD131BD1D72000298E8A /* MASViewAttribute.m */,
+				629FFD141BD1D72000298E8A /* MASViewConstraint.h */,
+				629FFD151BD1D72000298E8A /* MASViewConstraint.m */,
+				629FFD161BD1D72000298E8A /* NSArray+MASAdditions.h */,
+				629FFD171BD1D72000298E8A /* NSArray+MASAdditions.m */,
+				629FFD181BD1D72000298E8A /* NSArray+MASShorthandAdditions.h */,
+				629FFD191BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.h */,
+				629FFD1A1BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				629FFD1B1BD1D72000298E8A /* View+MASAdditions.h */,
+				629FFD1C1BD1D72000298E8A /* View+MASAdditions.m */,
+				629FFD1D1BD1D72000298E8A /* View+MASShorthandAdditions.h */,
+				629FFD1E1BD1D72000298E8A /* ViewController+MASAdditions.h */,
+				629FFD1F1BD1D72000298E8A /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		629FFCCB1BD1D47D00298E8A /* JYWeiboProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629FFCF91BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfile" */;
+			buildPhases = (
+				629FFCC81BD1D47D00298E8A /* Sources */,
+				629FFCC91BD1D47D00298E8A /* Frameworks */,
+				629FFCCA1BD1D47D00298E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYWeiboProfile;
+			productName = JYWeiboProfile;
+			productReference = 629FFCCC1BD1D47D00298E8A /* JYWeiboProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		629FFCE41BD1D47D00298E8A /* JYWeiboProfileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629FFCFC1BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfileTests" */;
+			buildPhases = (
+				629FFCE11BD1D47D00298E8A /* Sources */,
+				629FFCE21BD1D47D00298E8A /* Frameworks */,
+				629FFCE31BD1D47D00298E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629FFCE71BD1D47D00298E8A /* PBXTargetDependency */,
+			);
+			name = JYWeiboProfileTests;
+			productName = JYWeiboProfileTests;
+			productReference = 629FFCE51BD1D47D00298E8A /* JYWeiboProfileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		629FFCEF1BD1D47D00298E8A /* JYWeiboProfileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 629FFCFF1BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfileUITests" */;
+			buildPhases = (
+				629FFCEC1BD1D47D00298E8A /* Sources */,
+				629FFCED1BD1D47D00298E8A /* Frameworks */,
+				629FFCEE1BD1D47D00298E8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				629FFCF21BD1D47D00298E8A /* PBXTargetDependency */,
+			);
+			name = JYWeiboProfileUITests;
+			productName = JYWeiboProfileUITests;
+			productReference = 629FFCF01BD1D47D00298E8A /* JYWeiboProfileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		629FFCC41BD1D47D00298E8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Joyann;
+				TargetAttributes = {
+					629FFCCB1BD1D47D00298E8A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					629FFCE41BD1D47D00298E8A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 629FFCCB1BD1D47D00298E8A;
+					};
+					629FFCEF1BD1D47D00298E8A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 629FFCCB1BD1D47D00298E8A;
+					};
+				};
+			};
+			buildConfigurationList = 629FFCC71BD1D47D00298E8A /* Build configuration list for PBXProject "JYWeiboProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 629FFCC31BD1D47D00298E8A;
+			productRefGroup = 629FFCCD1BD1D47D00298E8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				629FFCCB1BD1D47D00298E8A /* JYWeiboProfile */,
+				629FFCE41BD1D47D00298E8A /* JYWeiboProfileTests */,
+				629FFCEF1BD1D47D00298E8A /* JYWeiboProfileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		629FFCCA1BD1D47D00298E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FFCDF1BD1D47D00298E8A /* LaunchScreen.storyboard in Resources */,
+				629FFCDC1BD1D47D00298E8A /* Assets.xcassets in Resources */,
+				629FFCDA1BD1D47D00298E8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCE31BD1D47D00298E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCEE1BD1D47D00298E8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		629FFCC81BD1D47D00298E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FFD311BD225A100298E8A /* UIImage+ColorImage.m in Sources */,
+				629FFD281BD1D72000298E8A /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				629FFD261BD1D72000298E8A /* MASViewConstraint.m in Sources */,
+				629FFD211BD1D72000298E8A /* MASCompositeConstraint.m in Sources */,
+				629FFD271BD1D72000298E8A /* NSArray+MASAdditions.m in Sources */,
+				629FFD041BD1D4F400298E8A /* JYProfileViewController.m in Sources */,
+				629FFCD41BD1D47D00298E8A /* AppDelegate.m in Sources */,
+				629FFD241BD1D72000298E8A /* MASLayoutConstraint.m in Sources */,
+				629FFCD11BD1D47D00298E8A /* main.m in Sources */,
+				629FFD2A1BD1D72000298E8A /* ViewController+MASAdditions.m in Sources */,
+				629FFD291BD1D72000298E8A /* View+MASAdditions.m in Sources */,
+				629FFD251BD1D72000298E8A /* MASViewAttribute.m in Sources */,
+				629FFD221BD1D72000298E8A /* MASConstraint.m in Sources */,
+				629FFD231BD1D72000298E8A /* MASConstraintMaker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCE11BD1D47D00298E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FFCEA1BD1D47D00298E8A /* JYWeiboProfileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		629FFCEC1BD1D47D00298E8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FFCF51BD1D47D00298E8A /* JYWeiboProfileUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		629FFCE71BD1D47D00298E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629FFCCB1BD1D47D00298E8A /* JYWeiboProfile */;
+			targetProxy = 629FFCE61BD1D47D00298E8A /* PBXContainerItemProxy */;
+		};
+		629FFCF21BD1D47D00298E8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 629FFCCB1BD1D47D00298E8A /* JYWeiboProfile */;
+			targetProxy = 629FFCF11BD1D47D00298E8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		629FFCD81BD1D47D00298E8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629FFCD91BD1D47D00298E8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		629FFCDD1BD1D47D00298E8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				629FFCDE1BD1D47D00298E8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		629FFCF71BD1D47D00298E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		629FFCF81BD1D47D00298E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		629FFCFA1BD1D47D00298E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYWeiboProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		629FFCFB1BD1D47D00298E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JYWeiboProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		629FFCFD1BD1D47D00298E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYWeiboProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYWeiboProfile.app/JYWeiboProfile";
+			};
+			name = Debug;
+		};
+		629FFCFE1BD1D47D00298E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JYWeiboProfileTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfileTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JYWeiboProfile.app/JYWeiboProfile";
+			};
+			name = Release;
+		};
+		629FFD001BD1D47D00298E8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYWeiboProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYWeiboProfile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		629FFD011BD1D47D00298E8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JYWeiboProfileUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.joyann.JYWeiboProfileUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JYWeiboProfile;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		629FFCC71BD1D47D00298E8A /* Build configuration list for PBXProject "JYWeiboProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FFCF71BD1D47D00298E8A /* Debug */,
+				629FFCF81BD1D47D00298E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		629FFCF91BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FFCFA1BD1D47D00298E8A /* Debug */,
+				629FFCFB1BD1D47D00298E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		629FFCFC1BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FFCFD1BD1D47D00298E8A /* Debug */,
+				629FFCFE1BD1D47D00298E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		629FFCFF1BD1D47D00298E8A /* Build configuration list for PBXNativeTarget "JYWeiboProfileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				629FFD001BD1D47D00298E8A /* Debug */,
+				629FFD011BD1D47D00298E8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 629FFCC41BD1D47D00298E8A /* Project object */;
+}
